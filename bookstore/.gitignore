@@ -1,0 +1,69 @@
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Editor / IDE
+# -----------------------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------------
+# Environment / secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Node / React (client)
+# -----------------------------
+client/node_modules/
+client/build/
+client/dist/
+client/.cache/
+client/.parcel-cache/
+client/.next/
+client/coverage/
+client/.eslintcache
+
+# -----------------------------
+# Java / Maven (server)
+# -----------------------------
+server/target/
+server/.mvn/wrapper/maven-wrapper.jar
+
+# Optional JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# -----------------------------
+# Test / coverage artifacts
+# -----------------------------
+coverage/
+*.lcov
+
+# -----------------------------
+# Archives / temp files
+# -----------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.zip
+*.tar
+*.gz
