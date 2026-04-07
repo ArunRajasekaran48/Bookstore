@@ -139,10 +139,6 @@ bookstore/
 
 MySQL will be auto-configured. Just make sure MySQL is running:
 
-```bash
-mysql -u root -p
-# password: sece@123
-
 # The database `bookstore_db` is created automatically on first startup.
 ```
 
